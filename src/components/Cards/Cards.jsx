@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
 
 const Cards = ({ card }) => {
-    const { picture, picture_rectangle, title, category, color_category_bg, color_card_bg, color_text_and_button_bg, description, price } = card || {}
+    const { id, category_id, picture, picture_rectangle, title, category, color_category_bg, color_card_bg, color_text_and_button_bg, description, price } = card || {}
 
     const cardStyle = {
         backgroundColor: color_card_bg,
@@ -17,9 +18,10 @@ const Cards = ({ card }) => {
 
 
     return (
-        <section>
+
+        <Link to={`/cards/${id}`}>
             <div>
-                <div className="card hover:opacity-75 hover:hero-overlay card-compact w-[312px] shadow-xl" style={cardStyle}>
+                <div className="card hover:opacity-75 hover:hero-overlay hover:shadow-xl card-compact w-[312px] " style={cardStyle}>
                     <figure><img className="w-full" src={picture} alt="Shoes" /></figure>
                     <div className="card-body">
                         <div className="flex">
@@ -29,7 +31,8 @@ const Cards = ({ card }) => {
                     </div>
                 </div>
             </div>
-        </section>
+        </Link>
+
 
 
     );
