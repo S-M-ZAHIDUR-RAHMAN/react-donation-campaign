@@ -1,0 +1,137 @@
+[
+    {
+      "picture": "https://i.ibb.co/93nwQ5S/Health.png",
+      "picture_rectangle": "https://i.ibb.co/ZxZjb9s/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_category_bg": "rgba(0, 82, 255, 0.20)",
+      "color_card_bg": "rgba(0, 82, 255, 0.15)",
+      "color_text_and_button_bg": "#0052FF",
+      "description": "We provide clean and safe drinking water to children in under served communities, ensuring their health and well-being. Your donation goes directly to the hand of the needy for making clean water available to them and improving overall health quality.",
+      "price": 300
+    },
+    {
+      "picture": "https://i.ibb.co/MDNX1RP/Education.png",
+      "picture_rectangle": "https://i.ibb.co/NyJwP7s/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_category_bg": "rgba(255, 68, 74, 0.20)",
+      "color_card_bg": "rgba(255, 68, 74, 0.15)",
+      "color_text_and_button_bg": "#FF444A",
+      "description": "We support quality education initiatives to equip students with the skills and knowledge they need to succeed. Nowadays skills are the most important things one should master in order to earn his or her livelihood.",
+      "price": 400
+    },
+    {
+      "picture": "https://i.ibb.co/0jTy2z4/Food.png",
+      "picture_rectangle": "https://i.ibb.co/pXbyvYZ/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_category_bg": "rgba(248, 113, 71, 0.20)",
+      "color_card_bg": "rgba(248, 113, 71, 0.15)",
+      "color_text_and_button_bg": "#F87147",
+      "description": "We promote access to nutritious and affordable food options, ensuring everyone has enough to eat. Your donation is directly used to help the people who are starving and need of proper diet. We already made more than 30 million plates full of food for the poor and needy. ",
+      "price": 350
+    },
+    {
+      "picture": "https://i.ibb.co/m6BstLW/Clothing.png",
+      "picture_rectangle": "https://i.ibb.co/Mp1ZJYM/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_category_bg": "rgba(121, 194, 63, 0.20)",
+      "color_card_bg": "rgba(121, 194, 63, 0.15)",
+      "color_text_and_button_bg": "#79C23F",
+      "description": "We organize a clothing drive to collect and distribute gently used clothing to those in need. In winter many poor people are in need of warm clothes. We collect and purchase clothes to provide them so that they do not die because of heavy cold.",
+      "price": 250
+    },
+    {
+      "picture": "https://i.ibb.co/93nwQ5S/Health.png",
+      "picture_rectangle": "https://i.ibb.co/ZxZjb9s/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_category_bg": "rgba(0, 82, 255, 0.20)",
+      "color_card_bg": "rgba(0, 82, 255, 0.15)",
+      "color_text_and_button_bg": "#0052FF",
+      "description": "We provide clean and safe drinking water to children in under served communities, ensuring their health and well-being. Your donation goes directly to the hand of the needy for making clean water available to them and improving overall health quality.",
+      "price": 300
+    },
+    {
+      "picture": "https://i.ibb.co/MDNX1RP/Education.png",
+      "picture_rectangle": "https://i.ibb.co/NyJwP7s/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_category_bg": "rgba(255, 68, 74, 0.20)",
+      "color_card_bg": "rgba(255, 68, 74, 0.15)",
+      "color_text_and_button_bg": "#FF444A",
+      "description": "We support quality education initiatives to equip students with the skills and knowledge they need to succeed. Nowadays skills are the most important things one should master in order to earn his or her livelihood.",
+      "price": 400
+    },
+    {
+      "picture": "https://i.ibb.co/0jTy2z4/Food.png",
+      "picture_rectangle": "https://i.ibb.co/pXbyvYZ/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_category_bg": "rgba(248, 113, 71, 0.20)",
+      "color_card_bg": "rgba(248, 113, 71, 0.15)",
+      "color_text_and_button_bg": "#F87147",
+      "description": "We promote access to nutritious and affordable food options, ensuring everyone has enough to eat. Your donation is directly used to help the people who are starving and need of proper diet. We already made more than 30 million plates full of food for the poor and needy. ",
+      "price": 350
+    },
+    {
+      "picture": "https://i.ibb.co/m6BstLW/Clothing.png",
+      "picture_rectangle": "https://i.ibb.co/Mp1ZJYM/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_category_bg": "rgba(121, 194, 63, 0.20)",
+      "color_card_bg": "rgba(121, 194, 63, 0.15)",
+      "color_text_and_button_bg": "#79C23F",
+      "description": "We organize a clothing drive to collect and distribute gently used clothing to those in need. In winter many poor people are in need of warm clothes. We collect and purchase clothes to provide them so that they do not die because of heavy cold.",
+      "price": 250
+    },
+    {
+      "picture": "https://i.ibb.co/93nwQ5S/Health.png",
+      "picture_rectangle": "https://i.ibb.co/ZxZjb9s/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "color_category_bg": "rgba(0, 82, 255, 0.20)",
+      "color_card_bg": "rgba(0, 82, 255, 0.15)",
+      "color_text_and_button_bg": "#0052FF",
+      "description": "We provide clean and safe drinking water to children in under served communities, ensuring their health and well-being. Your donation goes directly to the hand of the needy for making clean water available to them and improving overall health quality.",
+      "price": 300
+    },
+    {
+      "picture": "https://i.ibb.co/MDNX1RP/Education.png",
+      "picture_rectangle": "https://i.ibb.co/NyJwP7s/Rectangle-4287-1.png",
+      "title": "Good education",
+      "category": "Education",
+      "color_category_bg": "rgba(255, 68, 74, 0.20)",
+      "color_card_bg": "rgba(255, 68, 74, 0.15)",
+      "color_text_and_button_bg": "#FF444A",
+      "description": "We support quality education initiatives to equip students with the skills and knowledge they need to succeed. Nowadays skills are the most important things one should master in order to earn his or her livelihood.",
+      "price": 400
+    },
+    {
+      "picture": "https://i.ibb.co/0jTy2z4/Food.png",
+      "picture_rectangle": "https://i.ibb.co/pXbyvYZ/Rectangle-4287-2.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "color_category_bg": "rgba(248, 113, 71, 0.20)",
+      "color_card_bg": "rgba(248, 113, 71, 0.15)",
+      "color_text_and_button_bg": "#F87147",
+      "description": "We promote access to nutritious and affordable food options, ensuring everyone has enough to eat. Your donation is directly used to help the people who are starving and need of proper diet. We already made more than 30 million plates full of food for the poor and needy. ",
+      "price": 350
+    },
+    {
+      "picture": "https://i.ibb.co/m6BstLW/Clothing.png",
+      "picture_rectangle": "https://i.ibb.co/Mp1ZJYM/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "color_category_bg": "rgba(121, 194, 63, 0.20)",
+      "color_card_bg": "rgba(121, 194, 63, 0.15)",
+      "color_text_and_button_bg": "#79C23F",
+      "description": "We organize a clothing drive to collect and distribute gently used clothing to those in need. In winter many poor people are in need of warm clothes. We collect and purchase clothes to provide them so that they do not die because of heavy cold.",
+      "price": 250
+    }
+  ]
+
+
+  
