@@ -5,7 +5,7 @@ import Banner from "../../components/Header/Banner/Banner";
 const Home = () => {
     const cards = useLoaderData();
 
-    console.log(cards);
+    // console.log(cards);
     return (
 
         <div className="max-w-[1300px] mx-auto">
