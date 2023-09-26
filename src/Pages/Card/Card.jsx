@@ -47,17 +47,7 @@ const Card = () => {
             else{
                 swal("Already Donated !", "Do you want to donate more? Try our other categories", "error")
             }
-
-
-
-
-
         }
-
-
-
-
-
 
         // console.log(cardInfo);
         // localStorage.setItem('test', "Zahid")

@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
 
 const DonationList = ({ card }) => {
