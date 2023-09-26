@@ -1,8 +1,19 @@
-# React + Vite
+#Donation_Campaign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Here react router has been used to route smoothly within different pages[donation, statistics] from Home. 
 
-Currently, two official plugins are available:
+2. useState has been used to put and preserve data, mostly array of objects([]).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. useLoader has been used to load data within children of the path.
+
+4. localStorage has been used to store and get locally stored data.
+
+5. Apart from useLoader, useEffect has also been used to fetch data.
+
+6. rechart.js has been used to create and show pie chart in statistics page.
+
+7. tailwind.css has been used to perform style
+
+8. json file has been stored in public folder.
+
+

@@ -49,7 +49,8 @@ const Statistics = () => {
                         outerRadius={120}
                         fill="#8884d8"
                         labelLine={false}
-                        aria-description="name"        
+                        aria-description="name" 
+                        label       
                     >
                         {data.map((entry, index) => (
                             <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
