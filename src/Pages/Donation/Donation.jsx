@@ -16,20 +16,20 @@ const Donation = () => {
             setDonations(getDonatedItems)
         }
         else {
-            setNoDataFound("No Data Found")
+            setNoDataFound("Your List of Donations will be shown here")
         }
     }, [])
     // console.log(donations);
     const handleRemove=()=>{
         localStorage.clear();
         setDonations([]);
-        setNoDataFound("No Data Found");
+        setNoDataFound("Your List of Donations will be shown here");
     }
 
 
     return (
         <div>
-            {noDataFound && <h2 className="h-[100vh] flex justify-center items-center">{noDataFound}</h2> || <div>
+            {noDataFound && <h2 className="h-[100vh] flex justify-center items-center text-6xl border border-y-black shadow-2xl px-4 py-4 mb-20 text-center bg-slate-400 text-white">{noDataFound}</h2> || <div>
                 {
                     donations.length > 0 && <button onClick={handleRemove} className="p-5 bg-red-700 text-white block hover:rounded-full mx-auto">Delete All</button>
                 }

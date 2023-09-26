@@ -22,8 +22,8 @@ const DonationList = ({ card }) => {
 
     return (
         <div>
-            <div className="h-[200px] w-[630px]">
-                <div className="flex flex-col rounded-lg lg:flex-row" style={cardStyle}>
+            <div className="h-auto w-auto">
+                <div className="flex flex-col mx-6 rounded-lg md:flex-row lg:flex-row" style={cardStyle}>
                     <img src={picture_rectangle} className="max-w-sm rounded-lg shadow-2xl" />
                     <div className="flex flex-col gap-0 pl-5 pt-4">
                         <h2 className="card-title py-1 px-3 mr-auto text-bold text-sm" style={categoryStyle}>{category}</h2>

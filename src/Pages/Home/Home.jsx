@@ -26,8 +26,8 @@ const Home = () => {
         <div className="max-w-[1300px] mx-auto">
             <div className="h-[600px]">
                 <Banner searchTerm={searchTerm} setSearchTerm={setSearchTerm} handleSearch={handleSearch}></Banner>
-                <div className="mt-10 pb-10">
-                    <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
+                <div className="mt-10 pb-10 flex justify-center items-center">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                         {
                             handleSearch().map(card => <Cards key={card.id} card={card}></Cards>)
                             

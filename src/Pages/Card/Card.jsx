@@ -68,7 +68,7 @@ const Card = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-14">
+            <div className="mt-14 px-4 lg:px-0">
                 <div className="text-4xl font-bold">
                     {cardInfo?.title}
                 </div>
