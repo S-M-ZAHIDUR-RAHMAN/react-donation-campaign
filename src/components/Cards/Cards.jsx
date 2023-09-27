@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
 const Cards = ({ card }) => {
     const { id, category_id, picture, picture_rectangle, title, category, color_category_bg, color_card_bg, color_text_and_button_bg, description, price } = card || {}
@@ -16,10 +15,6 @@ const Cards = ({ card }) => {
     const titleStyle = {
         color: color_text_and_button_bg,
     }
-
-
-    const [searchBox, setSearchBox] = useState([]); 
-
 
     return (
 
@@ -36,9 +31,6 @@ const Cards = ({ card }) => {
                 </div>
             </div>
         </Link>
-
-
-
     );
 };
 

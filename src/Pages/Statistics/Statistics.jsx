@@ -4,12 +4,10 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
 
-
 const Statistics = () => {
     const stat = useLoaderData([]);
     const totalDonationNumber = stat?.length;
     // console.log(totalDonationNumber);
-
 
     const [yourSlice, setYourSlice] = useState([]);
 
@@ -22,11 +20,9 @@ const Statistics = () => {
 
     const percentageStat = (yourSlice?.length / totalDonationNumber) * 100;
     const yourDonation = parseFloat(percentageStat.toFixed(1));
-    console.log(yourDonation);
+    // console.log(yourDonation);
     const totalDonation = 100 - yourDonation;
-    console.log(totalDonation);
-
-
+    // console.log(totalDonation);
 
     const data = [
         { name: 'Total Donation', value: totalDonation },
@@ -76,11 +72,8 @@ const Statistics = () => {
                     </div>
                     )
                 }
-
             </div>
-
         </div >
-
     );
 }
 

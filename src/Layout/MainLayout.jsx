@@ -14,14 +14,12 @@ const MainLayout = () => {
             document.title = `DonationCamp ${locationPage.pathname.replace("/",'- ')}`
         }
         
-
     },[locationPage.pathname])
     return (
         <div className="max-w-[1300px] mx-auto">
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
-
     );
 };
 

@@ -9,7 +9,6 @@ const Navbar = () => {
                 <Logo></Logo>
                 </div>
                 <ul className="flex gap-10">
-
                     <li className="hover:border border-red-600 hover:rounded-full hover:px-3 hover:bg-slate-100">
                         <NavLink
                             to="/"
@@ -31,7 +30,7 @@ const Navbar = () => {
                             Donation
                         </NavLink>
                     </li>
-
+                    
                     <li className="hover:border border-red-600 hover:rounded-full hover:px-3 hover:bg-slate-100">
                         <NavLink
                             to="/statistics"

@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 
-
 const Banner = ({searchTerm, setSearchTerm, handleSearch}) => {
     const [boxText, setBoxText] = useState('');
 
@@ -19,13 +18,11 @@ const Banner = ({searchTerm, setSearchTerm, handleSearch}) => {
             <div className="hero-overlay bg-white bg-opacity-90"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="lg:max-w-md max-w-sm">
-                    <h1 className="mb-5 text-black text-2xl font-bold">I Grow By Helping People In Need</h1>
+                    <h1 className="mb-5 text-black text-2xl font-bold">Be the <span className="text-orange-500">hand</span> that lifts <span className="animate-pulse">others</span> up</h1>
                     <div className="flex justify-center">
-                    <input className="h-[50px] w-[3600px] text-black px-10" type="text" value={boxText} onChange={handleChange} placeholder="Search here..." name="" id="" />
+                    <input className="h-[50px] w-[3600px] text-black px-10" type="text" value={boxText} onChange={handleChange} placeholder="Search category here..." name="" id="" />
                     <button onClick={handleClick} className="btn bg-red-500 w-[110px] text-white">Search</button>
-
-                    </div>
-                    
+                    </div> 
                 </div>
             </div>
         </div>

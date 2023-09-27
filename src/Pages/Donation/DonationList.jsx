@@ -23,14 +23,14 @@ const DonationList = ({ card }) => {
     return (
         <div>
             <div className="h-auto w-auto">
-                <div className="flex flex-col mx-6 rounded-lg md:flex-row lg:flex-row" style={cardStyle}>
+                <div className="flex flex-col mx-6 rounded-lg md:flex-row lg:flex-row hover:hero-overlay" style={cardStyle}>
                     <img src={picture_rectangle} className="max-w-sm rounded-lg shadow-2xl" />
                     <div className="flex flex-col gap-0 pl-5 pt-4">
                         <h2 className="card-title py-1 px-3 mr-auto text-bold text-sm" style={categoryStyle}>{category}</h2>
                         <h2 className="text-bold text-2xl text-black" style={titleStyle}>{title}</h2>
                         <p className="py-2 font-bold" style={titleStyle}>$ {price}.00</p>
                         <Link to={`/cards/${id}`}>
-                            <button className="btn text-white w-[150px]" style={btnStyle}>View Details</button>
+                            <button className="btn text-white w-[150px] mb-5 md:mb-0 lg:mb-0 hover:opacity-60" style={btnStyle}>View Details</button>
                         </Link>
                     </div>
                 </div>

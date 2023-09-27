@@ -3,13 +3,12 @@ import Cards from "../../components/Cards/Cards";
 import Banner from "../../components/Header/Banner/Banner";
 import { useState } from "react";
 
-
 const Home = () => {
     const cards = useLoaderData();
 
     const [searchTerm, setSearchTerm] = useState([]); 
    
-    console.log(searchTerm);
+    // console.log(searchTerm);
 
     
     const handleSearch = ()=> {
@@ -32,9 +31,6 @@ const Home = () => {
                             handleSearch().map(card => <Cards key={card.id} card={card}></Cards>)
                             
                         }
-                        {/* {
-                            cards.map(card => <Cards key={card.id} card={card}></Cards>)
-                        } */}
                     </div>
                 </div>
 

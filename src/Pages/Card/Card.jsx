@@ -5,6 +5,7 @@ import { setItem } from "localforage";
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import swal from "sweetalert";
+import { Link } from "react-router-dom";
 
 const Card = () => {
 
@@ -44,13 +45,13 @@ const Card = () => {
                 localStorage.setItem('donations', JSON.stringify(addedDonationsArray))
                 swal("Good job!", "Donation Successful!", "success")
             }
-            else{
+            else {
                 swal("Already Donated !", "Do you want to donate more? Try our other categories", "error")
             }
         }
 
         // console.log(cardInfo);
-        // localStorage.setItem('test', "Zahid")
+        // localStorage.setItem('test', "abcd")
         // const setDonatedItems = localStorage.setItem('test', JSON.stringify(cardInfo))
         // console.log(setDonatedItems);
         // const getDonatedItems = JSON.parse(localStorage.getItem('test'))
@@ -64,7 +65,7 @@ const Card = () => {
             <div className="hero min-h-[50vh] flex flex-col justify-end" style={detailsPictureStyle}>
                 <div className="w-full bg-opacity-60">
                     <div className="hero-overlay pl-5 py-5">
-                        <button onClick={handleAddToDonation} className="btn text-lg glass hover:marker hover:w-[200px] hover:rounded-full hover:text-xl text-white" style={detailsBtnStyle}>Donate ${cardInfo?.price}</button>
+                        <button onClick={handleAddToDonation} className="btn text-lg glass animate-pulse hover:marker hover:w-[200px] hover:rounded-full hover:text-xl text-white" style={detailsBtnStyle}>Donate ${cardInfo?.price}</button>
                     </div>
                 </div>
             </div>
@@ -75,6 +76,11 @@ const Card = () => {
                 <div className="text-lg mt-6">
                     {cardInfo?.description}
                 </div>
+                <Link to={`/`}>
+                    <div className="flex justify-center mt-5">
+                        <button className="btn glass bg-slate-300">Go Back to <br />HOME</button>
+                    </div>
+                </Link>
             </div>
         </div>
     );
